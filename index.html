@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jesus na Web</title>
+  <link rel="stylesheet" href="style.css?v=FINAL">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">JW</div>
+        <div>
+          <div class="brand-title">Jesus na Web</div>
+          <div class="brand-sub">Promovendo a sã doutrina</div>
+        </div>
+      </div>
+
+      <nav aria-label="principal">
+        <a href="quemsomos.html" class="cta">Quem Somos</a>
+      </nav>
+
+      <button class="menu-btn" onclick="toggleMobile()">☰</button>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div>
+          <h1>Jesus na Web, ensinando, exortando e discipulando através da rede.</h1>
+          <p class="lead">Sigamos e prossigamos em conhecer ao Senhor. Os.6.3</p>
+
+          <div class="actions">
+            <a class="btn" href="#contato">Começar</a>
+            <a class="btn ghost" href="#features">Ver recursos</a>
+          </div>
+
+          <div class="features" id="features">
+            <div class="feature card">
+              <h3><a href="jesus.html">Um exemplo a ser seguido</a></h3>
+              <p>A Igreja da Morávia e os 100 Anos de Oração.</p>
+            </div>
+
+            <div class="feature card">
+              <h3><a href="Deus.html">Meditação</a></h3>
+              <p>Ele escolheu a cruz</p>
+            </div>
+
+            <div class="feature card">
+              <h3><a href="estudo.html">Estudo Bíblico</a></h3>
+              <p>O azeite na reserva, você está pronto para meia-noite?</p>
+            </div>
+
+            <div class="feature card">
+              <h3><a href="apologetica.html">Apologética</a></h3>
+              <p>Fé e Ciência na Era da Razão</p>
+            </div>
+
+            <div class="feature card">
+              <h3><a href="missao.html">Missões em foco</a></h3>
+              <div class="title">Uma visão missionária.</div>
+              <p>O Coração de Deus em Ação: Uma Visão Missionária Como Prioridade</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Aprofunde a sua Jornada de Fé</h2>
+
+        <div class="works" id="works">
+
+          <a href="curiosidades.html" class="work"
+              style="background-image:url('matusalem.jpg')">
+            Curiosidades
+          </a>
+
+          <a href="livro.html" class="work"
+              style="background-image:url('livro.jpg')">
+            Sugestão de Leitura Cristã Inspiradora
+          </a>
+
+          <a href="filme.html" class="work"
+              style="background-image:url('filme.jpg')">
+           Você tem que assistir
+          </a>
+
+        </div>
+      </section>
+
+      <section id="contato">
+        <h2>Contato</h2>
+        
+        <form class="contato-form card" action="processa_contato.php" method="POST">
+          <input placeholder="Seu nome" name="nome" type="text" required />
+          <input placeholder="Seu email" name="email" type="email" required />
+          <textarea placeholder="Mensagem" name="mensagem" rows="4" required></textarea>
+
+          <div class="form-actions">
+            <button class="btn cta" type="submit">Enviar</button> 
+            <button class="btn ghost" type="reset">Limpar</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <p>© <strong>Jesus na Web</strong> — Promovendo a Sã Doutrina</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

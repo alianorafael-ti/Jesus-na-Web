@@ -1,0 +1,98 @@
+/* * Estilos para a Página de Curiosidade (Tom Envolvente/Surpreendente)
+ */
+
+body {
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif; /* Fonte legível e moderna */
+    color: #34495e; /* Azul acinzentado */
+    background-color: #fcfcfc;
+    line-height: 1.6; 
+    margin: 0;
+    padding: 30px 20px;
+    text-align: center; 
+}
+
+main, header, footer {
+    max-width: 750px; 
+    margin: 0 auto;
+}
+
+/* Títulos */
+h1.titulo {
+    font-size: 2.5em;
+    color: #e67e22; /* Laranja forte - atrai o olhar */
+    margin-bottom: 5px;
+}
+
+.subtitulo {
+    font-size: 1.3em;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #3498db; /* Azul claro */
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed #ecf0f1;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: #2980b9;
+    margin-top: 25px;
+}
+
+/* Parágrafos e Alinhamento */
+p {
+    margin-bottom: 20px; 
+    text-align: justify; 
+    padding: 0 10px; 
+}
+
+/* Tabela de Genealogia */
+.tabela-genealogia {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 30px auto;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.tabela-genealogia th, .tabela-genealogia td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.tabela-genealogia thead th {
+    background-color: #34495e; /* Fundo escuro */
+    color: white;
+}
+
+.tabela-genealogia tbody tr:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+/* Destaque da Graça (Aside) */
+.graca-suspensa {
+    background-color: #ecf0f1;
+    border-left: 4px solid #2ecc71; /* Verde - Tom de Esperança/Graça */
+    padding: 15px;
+    margin: 30px auto;
+    font-style: italic;
+    width: 90%;
+    text-align: left;
+}
+
+.graca-suspensa strong {
+    color: #27ae60;
+}
+
+/* Rodapé */
+footer {
+    margin-top: 40px;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+    color: #aaa;
+}

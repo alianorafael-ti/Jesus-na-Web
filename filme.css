@@ -1,0 +1,107 @@
+/* * Estilos para a Página de Sugestão de Filme (Tom Sóbrio/Histórico)
+ */
+
+body {
+    font-family: 'Georgia', serif; 
+    color: #495057; /* Cinza escuro */
+    background-color: #f8f9fa; /* Fundo muito claro */
+    line-height: 1.6; 
+    margin: 0;
+    padding: 30px 20px;
+    text-align: center; 
+}
+
+main, header, footer {
+    max-width: 800px; 
+    margin: 0 auto;
+}
+
+/* Títulos */
+h1.titulo {
+    font-size: 2.5em;
+    color: #800000; /* Bordô/Vinho - Tom dramático */
+    margin-bottom: 5px;
+}
+
+.subtitulo {
+    font-size: 1.2em;
+    color: #c0392b; /* Vermelho queimado */
+    font-style: italic;
+    margin-bottom: 30px;
+    border-bottom: 1px dashed #e9ecef;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #34495e; 
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: #800000;
+    margin-top: 25px;
+}
+
+/* Parágrafos e Listas */
+p {
+    margin-bottom: 20px; 
+    text-align: justify; 
+    padding: 0 10px; 
+}
+
+.pontos-essenciais li {
+    text-align: left;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-left: 3px solid #f39c12; /* Destaque amarelo/laranja */
+}
+
+/* Destaque (Clímax Espiritual) */
+.climax-espiritual {
+    background-color: #fdf5e6; /* Fundo cor de creme */
+    border: 1px solid #e9dac8;
+    padding: 20px;
+    margin: 30px auto;
+    font-style: italic;
+    width: 90%;
+    text-align: center;
+}
+
+.climax-espiritual strong {
+    color: #c0392b;
+}
+
+/* Trailer e Links */
+.trailer-box {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #e9ecef;
+    border-radius: 8px;
+}
+
+.btn-trailer {
+    display: inline-block;
+    background-color: #c0392b;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+
+.btn-trailer:hover {
+    background-color: #800000;
+}
+
+/* Rodapé */
+footer {
+    margin-top: 50px;
+    padding-top: 15px;
+    border-top: 1px solid #ddd;
+    color: #888;
+}

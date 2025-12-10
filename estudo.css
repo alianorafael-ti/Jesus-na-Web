@@ -1,0 +1,135 @@
+/*
+ * Configurações Gerais
+ */
+body {
+    font-family: 'Georgia', serif; /* Fonte clássica e legível */
+    color: #333; /* Cor do texto escura, mas suave */
+    background-color: #f8f8f8; /* Fundo levemente acinzentado */
+    line-height: 1.6; /* Espaçamento entre linhas aprimorado para leitura */
+    margin: 0;
+    padding: 20px;
+    text-align: center; /* CENTRALIZA TODO O TEXTO */
+}
+
+/* * Container principal para limitar a largura e aplicar centralização de bloco 
+ */
+main, header, footer {
+    max-width: 800px; /* Largura máxima para evitar linhas muito longas */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+ * Títulos e Subtítulos
+ */
+.titulo {
+    font-size: 2.5em;
+    color: #4a148c; /* Roxo escuro */
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.subtitulo {
+    font-size: 1.2em;
+    color: #7b1fa2; /* Roxo um pouco mais claro */
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #1e88e5; /* Azul vibrante */
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 5px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.4em;
+    color: #3949ab;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+/*
+ * Parágrafos e Espaçamento
+ */
+p {
+    margin-bottom: 20px; /* Maior espaço entre parágrafos */
+    text-align: justify; /* Melhora a leitura do corpo do texto */
+    padding: 0 10px; /* Pequeno padding lateral */
+}
+
+/* Centraliza parágrafos de destaque (como reflexões e chamados) */
+.reflexao, .chamado {
+    text-align: center;
+}
+
+
+/*
+ * Estilização da Reflexão
+ */
+.reflexao {
+    background-color: #e3f2fd; /* Fundo azul claro */
+    border-left: 5px solid #1e88e5;
+    padding: 15px;
+    margin: 30px 0;
+    font-style: italic;
+}
+
+.reflexao strong {
+    color: #1565c0;
+}
+
+/*
+ * Estilização da Tabela
+ */
+table {
+    width: 95%;
+    border-collapse: collapse;
+    margin: 30px auto;
+    text-align: left; /* Alinha o texto da tabela à esquerda */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+thead {
+    background-color: #3949ab; /* Roxo escuro na cabeça da tabela */
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+/*
+ * Chamado Final
+ */
+.chamado {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #d84315; /* Laranja forte */
+    margin-top: 40px;
+    padding: 15px;
+    border-top: 2px dashed #ffab91;
+}
+
+/* * Rodapé 
+ */
+footer {
+    margin-top: 50px;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+    color: #777;
+    font-size: 0.9em;
+}
+
+/* Forçando a centralização de itens que naturalmente não são centralizados pelo text-align */
+section, article {
+    text-align: center;
+}

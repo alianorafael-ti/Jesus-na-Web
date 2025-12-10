@@ -1,0 +1,120 @@
+/* * Estilos para a Página da Missão (Tom de Ação e Urgência)
+ */
+
+body {
+    font-family: 'Verdana', sans-serif; /* Fonte legível e moderna */
+    color: #36454F; /* Cinza de carvão */
+    background-color: #f7f9fc; /* Fundo muito levemente azulado */
+    line-height: 1.7; 
+    margin: 0;
+    padding: 30px 20px;
+    text-align: center; 
+}
+
+main, header, footer {
+    max-width: 850px; 
+    margin: 0 auto;
+}
+
+/* Títulos */
+h1.titulo {
+    font-size: 2.8em;
+    color: #007bff; /* Azul primário */
+    margin-bottom: 5px;
+}
+
+.subtitulo {
+    font-size: 1.3em;
+    color: #28a745; /* Verde vibrante */
+    font-style: italic;
+    margin-bottom: 35px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #17a2b8; /* Ciano/Turquesa (movimento) */
+    border-bottom: 2px solid #e9ecef;
+    padding-bottom: 10px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.4em;
+    color: #007bff;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* Parágrafos e Listas */
+p {
+    margin-bottom: 20px; 
+    text-align: justify; 
+    padding: 0 10px; 
+}
+
+ul.pontos-chave li {
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+ol.processo {
+    text-align: left;
+    margin: 20px auto 30px auto;
+    width: 90%;
+}
+
+/* Destaque (Visão Bíblica) */
+.visao-biblica {
+    background-color: #e6f7ff;
+    border-left: 5px solid #007bff;
+    padding: 15px 20px;
+    margin: 30px auto;
+    width: 85%;
+    text-align: left;
+    font-size: 1.1em;
+}
+
+.visao-biblica strong {
+    color: #0056b3;
+}
+
+/* Tabela Comparativa */
+table.comparativo-missao {
+    width: 95%;
+    border-collapse: collapse;
+    margin: 30px auto;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.comparativo-missao th, .comparativo-missao td {
+    padding: 12px 15px;
+    border: 1px solid #dee2e6;
+}
+
+.comparativo-missao thead th {
+    background-color: #28a745; /* Verde - Cor da Ação */
+    color: white;
+}
+
+/* Chamado Final */
+.chamado-final {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+/* Rodapé */
+footer {
+    margin-top: 50px;
+    padding-top: 15px;
+    border-top: 1px solid #ddd;
+    color: #999;
+    font-size: 0.9em;
+}

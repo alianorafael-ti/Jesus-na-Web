@@ -1,0 +1,76 @@
+/* * Estilos para a Página "Ele Escolheu a Cruz" (Tom Solene/Dramático)
+ */
+
+body {
+    font-family: 'Georgia', serif; 
+    color: #424242; /* Cinza escuro para tom solene */
+    background-color: #fefefe; /* Fundo branco puro */
+    line-height: 1.8; /* Excelente espaçamento para leitura reflexiva */
+    margin: 0;
+    padding: 40px 20px;
+    text-align: center; /* Centraliza títulos e elementos principais */
+}
+
+main, header, footer {
+    max-width: 750px; /* Largura um pouco menor para foco */
+    margin: 0 auto;
+}
+
+/* Títulos e Hierarquia */
+h1.titulo {
+    font-size: 3.5em;
+    color: #790e0e; /* Vermelho escuro/vinho para paixão */
+    margin-bottom: 15px;
+}
+
+.subtitulo {
+    font-size: 1.3em;
+    color: #a55a5a;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 2.2em;
+    color: #1c1c1c; /* Quase preto */
+    margin-top: 50px;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+/* Estilização da Oração (Blockquote) */
+blockquote {
+    background-color: #f2f2f2; /* Fundo claro para citação */
+    border-left: 6px solid #790e0e; /* Linha de destaque solene */
+    padding: 20px 30px;
+    margin: 30px auto;
+    font-style: italic;
+    font-size: 1.1em;
+    width: 90%;
+    text-align: center;
+}
+
+blockquote p {
+    margin-bottom: 10px;
+    text-align: center; /* Centraliza o texto dentro da citação */
+}
+
+/* Espaçamento e Alinhamento */
+p {
+    margin-bottom: 22px; 
+    text-align: justify; /* Melhora a fluidez da narrativa */
+    padding: 0 10px;
+}
+
+/* Destaques (Strong) */
+strong {
+    color: #790e0e;
+}
+
+/* Rodapé */
+footer {
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    color: #888;
+}
