@@ -1,11 +1,8 @@
-// script.js
-
-// Menu mobile
-document.addEventListener("DOMContentLoaded", () => {
-    const btn = document.querySelector(".mobile-toggle");
-    const menu = document.querySelector("nav ul");
-
-    btn.addEventListener("click", () => {
-        menu.classList.toggle("open");
-    });
-});
+function toggleMobile() {
+    const nav = document.querySelector("nav");
+    if (nav.style.display === "block") {
+        nav.style.display = "none";
+    } else {
+        nav.style.display = "block";
+    }
+}
